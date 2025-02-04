@@ -5,3 +5,11 @@
 // website loaded?
 console.log('Ok');
 
+const body = document.body;
+console.log(body);
+
+body.style.backgroundColor = "pink";
+
+body.style.backgroundColor = colorkit.random();
+
+colorkit.sparkle(body);
